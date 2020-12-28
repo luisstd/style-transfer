@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../css/webfonts/sf-pro-display-black-webfont.woff2") format("woff2"),
+    url("../css/webfonts/sf-pro-display-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display Italic";
+  src: url("../css/webfonts/sf-pro-display-blackitalic-webfont.woff2")
+      format("woff2"),
+    url("../css/webfonts/sf-pro-display-blackitalic-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+html {
+  font-family: "SF Pro Display", sans-serif;
+  color: #ba4a4a;
+}
+
+.input__upload {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.output__download {
+  font-family: "SF Pro Display Italic";
+  color: #ba4a4a;
+}

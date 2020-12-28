@@ -1,0 +1,30 @@
+.input,
+.style {
+  display: flex;
+  flex-flow: column;
+}
+
+.style {
+  &__upload {
+    font-family: "SF Pro Display", sans-serif;
+    color: #ba4a4a;
+    background-color: none;
+    border: none;
+    border-radius: 8px;
+  }
+
+  &__image {
+    width: 250px;
+    height: auto;
+  }
+}
+
+.input {
+  &__upload {
+    font-family: "SF Pro Display", sans-serif;
+    color: #ba4a4a;
+    background-color: none;
+    border: none;
+    border-radius: 8px;
+  }
+}

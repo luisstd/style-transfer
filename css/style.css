@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../css/webfonts/sf-pro-display-black-webfont.woff2") format("woff2"), url("../css/webfonts/sf-pro-display-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "SF Pro Display Italic";
+  src: url("../css/webfonts/sf-pro-display-blackitalic-webfont.woff2") format("woff2"), url("../css/webfonts/sf-pro-display-blackitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic; }
+
+html {
+  font-family: "SF Pro Display", sans-serif;
+  color: #ba4a4a; }
+
+.input__upload {
+  font-size: 1.5rem;
+  font-style: italic; }
+
+.output__download {
+  font-family: "SF Pro Display Italic";
+  color: #ba4a4a; }
+
+header {
+  text-align: center; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+  align-items: baseline;
+  justify-items: center; }
+
+.style {
+  grid-column: 3 / span 2;
+  grid-row: 1 / span 2; }
+
+.input {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 1; }
+
+.output {
+  grid-column: 5 / span 2;
+  grid-row: 1 / span 1;
+  text-align: center; }
+
+.output {
+  margin-top: -6rem;
+  display: flex;
+  flex-flow: column; }
+  .output__download {
+    background-color: none;
+    border: 0.3rem solid black;
+    border-radius: 8px; }
+
+.input,
+.style {
+  display: flex;
+  flex-flow: column; }
+
+.style__upload {
+  font-family: "SF Pro Display", sans-serif;
+  color: #ba4a4a;
+  background-color: none;
+  border: none;
+  border-radius: 8px; }
+
+.style__image {
+  width: 250px;
+  height: auto; }
+
+.input__upload {
+  font-family: "SF Pro Display", sans-serif;
+  color: #ba4a4a;
+  background-color: none;
+  border: none;
+  border-radius: 8px; }

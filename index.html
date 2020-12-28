@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://unpkg.com/ml5@0.6.0/dist/ml5.min.js"
+      type="text/javascript"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Image Style Transfer</title>
+  </head>
+  <body>
+    <script src="script.js" defer></script>
+    <header><h1>STYLE TRANSFER TOOL</h1></header>
+    <div class="grid-container">
+      <div class="input">
+        <h2 class="input__upload-text">UPLOAD IMAGE</h2>
+        <img
+          id="input-image"
+          src="./img/penguin.jpg"
+          alt="Penguin"
+          class="style__image"
+        />
+        <input type="file" class="input__upload" />
+      </div>
+
+      <div class="style">
+        <h2 class="style__upload-text">STYLE 1</h2>
+        <img
+          src="./img/the scream.jpg"
+          alt="Starry Night"
+          class="style__image"
+        />
+
+        <h2 class="style__upload-text">STYLE 2</h2>
+        <img src="./img/great wave.jpg" alt="The Scream" class="style__image" />
+      </div>
+
+      <div class="output">
+        <h2 class="output__heading">OUTPUT IMAGE</h2>
+        <img
+          id="output-image"
+          src="./img/penguin.jpg"
+          alt="Penguin"
+          class="style__image"
+        />
+        <button class="output__download">
+          <h3 class="output__download-text">DOWNLOAD</h3>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

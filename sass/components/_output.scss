@@ -1,0 +1,11 @@
+.output {
+  margin-top: -6rem;
+  display: flex;
+  flex-flow: column;
+
+  &__download {
+    background-color: none;
+    border: 0.3rem solid black;
+    border-radius: 8px;
+  }
+}
