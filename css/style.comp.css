@@ -12,15 +12,16 @@
 
 html {
   font-family: "SF Pro Display", sans-serif;
-  color: #ba4a4a; }
+  color: #b15f8c; }
 
 .input__upload {
   font-size: 1.5rem;
-  font-style: italic; }
+  font-style: italic;
+  color: #b15f8c; }
 
 .output__download {
   font-family: "SF Pro Display Italic";
-  color: #ba4a4a; }
+  color: #b15f8c; }
 
 header {
   text-align: center; }
@@ -61,14 +62,18 @@ header {
 
 .style__upload {
   font-family: "SF Pro Display", sans-serif;
-  color: #ba4a4a;
+  color: #b15f8c;
   background-color: none;
   border: none;
   border-radius: 8px; }
 
+.style__image {
+  width: 250px;
+  height: auto; }
+
 .input__upload {
   font-family: "SF Pro Display", sans-serif;
-  color: #ba4a4a;
+  color: #b15f8c;
   background-color: none;
   border: none;
   border-radius: 8px; }

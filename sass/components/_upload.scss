@@ -7,7 +7,7 @@
 .style {
   &__upload {
     font-family: "SF Pro Display", sans-serif;
-    color: #ba4a4a;
+    color: #b15f8c;
     background-color: none;
     border: none;
     border-radius: 8px;
@@ -19,12 +19,10 @@
   }
 }
 
-.input {
-  &__upload {
-    font-family: "SF Pro Display", sans-serif;
-    color: #ba4a4a;
-    background-color: none;
-    border: none;
-    border-radius: 8px;
-  }
+.input__upload {
+  font-family: "SF Pro Display", sans-serif;
+  color: #b15f8c;
+  background-color: none;
+  border: none;
+  border-radius: 8px;
 }
