@@ -11,16 +11,15 @@
   font-style: italic; }
 
 html {
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "Futura", "SF Pro Display", sans-serif;
   color: #b15f8c; }
 
 .input__upload {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-style: italic;
   color: #b15f8c; }
 
 .output__download {
-  font-family: "SF Pro Display Italic";
   color: #b15f8c; }
 
 h1 {
