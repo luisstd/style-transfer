@@ -5,7 +5,8 @@
   "main": "app.js",
   "dependencies": {
     "autoprefixer": "^10.0.0",
-    "postcss": "^8.0.9"
+    "postcss": "^8.0.9",
+    "vue-upload-component": "^3.0.47"
   },
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",

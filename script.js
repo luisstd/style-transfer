@@ -3,8 +3,8 @@ let inputIMG = document.getElementById("input-image");
 let outputIMG = document.getElementById("output-image");
 
 // style transfer instances
-const style1 = ml5.styleTransfer("./data/scream", modelLoaded);
-const style2 = ml5.styleTransfer("./data/wave", modelLoaded);
+const styleScream = ml5.styleTransfer("./data/scream", modelLoaded);
+const styleWave = ml5.styleTransfer("./data/wave", modelLoaded);
 
 // success message
 function modelLoaded() {
@@ -19,9 +19,6 @@ function transferStyle(style) {
 }
 
 // upload image
-
-const uploadedIMG = document.querySelector(".input__upload").files;
-inputIMG.src = uploadedIMG[0];
 
 // select & transfer style
 
