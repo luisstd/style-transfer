@@ -18,8 +18,4 @@ function transferStyle(style) {
   });
 }
 
-// upload image
-
-// select & transfer style
-
 // download result

@@ -1,0 +1,32 @@
+.style {
+  display: flex;
+  flex-flow: column;
+}
+
+.style {
+  &__button {
+    position: relative;
+    z-index: 10;
+    font-family: "Futura", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #b15f8c;
+    border: 0.2rem solid black;
+    padding: 0.5rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+
+    &:hover {
+      display: inline-block;
+      color: white;
+    }
+  }
+
+  &__image {
+    width: 250px;
+    height: auto;
+
+    border-radius: 8px;
+  }
+}

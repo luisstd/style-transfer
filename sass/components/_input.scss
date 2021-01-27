@@ -1,0 +1,14 @@
+.input {
+  display: flex;
+  flex-flow: column;
+}
+
+.input {
+  &__upload {
+    font-family: "Futura", sans-serif;
+    color: #b15f8c;
+    background-color: none;
+    border: none;
+    border-radius: 8px;
+  }
+}
