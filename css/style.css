@@ -34,7 +34,8 @@ img {
 
 html {
   font-family: "Futura", "SF Pro Display", sans-serif;
-  color: #b15f8c; }
+  color: #b15f8c;
+  overflow-y: hidden; }
 
 h1 {
   font-size: 2.5rem; }
