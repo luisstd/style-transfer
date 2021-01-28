@@ -96,7 +96,8 @@ header {
 .input {
   display: flex;
   flex-flow: column;
-  margin-bottom: 2rem; }
+  margin-bottom: 1rem;
+  color: black; }
 
 .input__upload {
   font-family: "Futura", sans-serif;
@@ -110,7 +111,8 @@ header {
   display: flex;
   flex-flow: column;
   margin-bottom: 1rem;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  color: black; }
   .output__download {
     background-color: none;
     border: 0.2rem solid black;
